@@ -588,7 +588,7 @@ def results(model_name):
     ), row=4, col=1)
 
 
-    maxValueIndex_rf = df_output[['breast_cancer_target','lung_cancer_target','CKD_target','COPD_target']].idxmax(axis=0) ## this needs to be improved as it is not what we want
+    maxValueIndex_rf = df_output[['breast_cancer_target','lung_cancer_target','CKD_target','COPD_target']].idxmax(axis=0) 
     result = df_output.loc[maxValueIndex_rf]
 
     lung = df_output[['gene','lung_cancer_target']].loc[df_output['lung_cancer_target'].idxmax(axis=0)]
