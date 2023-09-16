@@ -1,0 +1,21 @@
+# Ignore Mac system files
+.DS_store
+.dSYM
+
+# Ignore all csv files
+*.csv
+
+# Ignore all png files
+*.png
+
+# Ignore all text files
+*.txt
+
+# Ignore all executable files
+*.o
+*.out
+
+# Ignore jupyter checkpoints
+*.ipynb_checkpoints
+
+
